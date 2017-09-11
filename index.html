@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Guessing Game</title>
+
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <link href='bootstrap.css' rel='stylesheet' type='text/css'>
+
+
+  </head>
+
+
+    <!-- main content -->
+    <body>
+
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <h1 id='title'>Play the Guessing Game!</h1>
+          <h3 id='subtitle'>Guess a number between 1-100!</h3>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <input id='player-input' class='center' placeholder="#" maxlength='3' autofocus=autofocus></input>
+            <button class='btn btn-success' id='submit'>Go!</button>
+          </div>
+
+          <div id='guesses' class='box-shadow'>
+            <ul id='guess-list'>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <button id='reset' class='btn btn-warning'>Reset</button>
+            <button id='hint' class='btn btn-info'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+      <div id='footer' class='center'>
+      <div class='row'>
+        <div class='col-sm-4'>
+          <img src='fa-logo@2x.png'></img>
+        </div>
+
+        <div class='col-sm-4'>
+          <h4>Project by Cara Lang</h4>
+        </div>
+
+        <div class='col-sm-4'>
+          <img src='grace_hopper_academy.png'></img>
+        </div>
+
+
+      </div>
+    </div>
+
+    <script src='jquery.min.js'></script>
+    <script src='GuessingGame.js'></script>
+
+
+  </body>
+
+</html>
